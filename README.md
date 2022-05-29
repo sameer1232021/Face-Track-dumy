@@ -71,7 +71,11 @@ Teachable ML
 
 ## Requirements
 
-*   Android Studio 3.2 (installed on a Linux, Mac or Windows machine)
+*   Android Studio Arctic Fox | 2020.3.1 Patch3 (installed on a Linux, Mac or Windows machine)
+
+*   Gradle Version 7.0.2
+
+*   Gradle plugin version 7.0.3
 
 *   Android device in
     [developer mode](https://developer.android.com/studio/debug/dev-options)
@@ -132,7 +136,7 @@ will be installed. This will install the app on the device.
 
 <img src="images/classifydemo_img8.png?raw=true" style="width: 80%" />
 
-To test the app, open the app called `TFL Classify` on your device. When you run
+To test the app, open the app called `Face Track` on your device. When you run
 the app the first time, the app will request permission to access the camera.
 Re-installing the app may require you to uninstall the previous installations.
 
