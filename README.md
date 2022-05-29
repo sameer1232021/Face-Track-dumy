@@ -1,23 +1,65 @@
-# Android Currency Detector App using TensorFlow Lite image classification
 
-## Overview
+# Face Track Android Application
 
-This is an example application for [TensorFlow Lite](https://tensorflow.org/lite)
-on Android. It uses
-[Image classification](https://www.tensorflow.org/lite/models/image_classification/overview)
-to continuously classify whatever it sees from the device's back camera.
-Inference is performed using the TensorFlow Lite Java API. The demo app
-classifies frames in real-time, displaying the top most probable
-classifications. It allows the user to choose between a floating point or
-[quantized](https://www.tensorflow.org/lite/performance/post_training_quantization)
-model, select the thread count, and decide whether to run on CPU, GPU, or via
-[NNAPI](https://developer.android.com/ndk/guides/neuralnetworks).
+This app can detect and recognize face in real time based on the trained data.
+This app uses Image classification Machine learning model which is based on Supervised Learning algorithm.
 
-These instructions walk you through building and
-running the demo on an Android device. For an explanation of the source, see
-[TensorFlow Lite Android image classification example](https://www.tensorflow.org/lite/models/image_classification/android).
+# Index
+1.) Working of the project
 
-<!-- TODO(b/124116863): Add app screenshot. -->
+2.) Tech stacks used in the project
+
+3.) Instruction for testing the app
+
+4.) Application of the project
+
+
+# Working of the app
+The app has been trained for recognizing a criminal, lost dog or missing child.
+Whenever these members are in the camera the app automatically recognizes them and 
+makes sounds accordingly. Also the app instatly sends an sms to the concerned authorities
+automatically.
+
+# a) For the criminal
+When the criminal has been recognized by the app's algorithm, the app starts sounding a
+siren alarm so if there are people around the criminal, they can be aware and alert of
+of the criminal and save themselves from any danger. Also if the criminal does not seem to have any
+fire-power, the people can volunteer and grab the criminal until the concerned authorities arrive.
+
+With the loud alarming siren the app would have already been sent an sms to the concerned authorities
+about the exact pin point google map location where the criminal was spotted.
+This will help in the tracking and narrowing down the radius of search.
+
+Also this would put a psychological fear on any potential criminal that if they are identified by legal authorities 
+escaping wouldn't be easy.
+
+# b) For the missing child
+If the camera detects the missing child it starts voicing "missing child" repeatedly and send an instant location sms to the investigation team.
+The voicing of the app is also helpful in situations where a kidnapper has gained the innocent child's 
+trust and the people around think the kidnapper to be the child's concerned person.
+
+# c) For the Lost pet 
+Similarly when the camera detects the lost dog it it starts voicing "Missing dog" so that the people 
+around can know that the dog belongs to somebody and the concerned team will be soon at the location
+looking for the dog as the camera has already shared the location of via sms. 
+
+# Tech Stacks used
+
+1) Tensorflow:
+
+TensorFlow is an open-source end-to-end framework for building Machine Learning apps.
+The image classification model for the app has been created using the Tensorflow 
+library.
+
+2) TensorFlowLite
+TensorFlow Lite is an open-source, product ready, cross-platform deep learning framework that converts a pre-trained model in TensorFlow to a special format that can be optimized for speed or storage.
+
+The special format model can be deployed on edge devices like mobiles using Android or iOS or Linux based embedded devices like Raspberry Pi or Microcontrollers to make the inference at the Edge.
+
+The deployment of the Tensorflow model on Android was done using TensorFlowLite library
+
+# Application
+This could be deployed in survillance CCTV cameras and can also be used in Survillance drones.
 
 ### Model
 Inside Assests folder zip file is there.
