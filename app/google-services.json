@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "602093507459",
+    "project_id": "face-track-f8bbe",
+    "storage_bucket": "face-track-f8bbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602093507459:android:d26f6090cf90f9fe931cb6",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.examples.classification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602093507459-k5q2ufhl53b099c0q4j83124g13dumr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWz-_Q2wIVShLGu5KmLGiFvDrfg4TMhfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602093507459-k5q2ufhl53b099c0q4j83124g13dumr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
